@@ -16,7 +16,7 @@ This work is licensed under a [Creative Commons Attribution 3.0 Unported License
 Requirements
 =============
 
-* LaTeX: to comiple source code documentation files.
+* LaTeX: to compile source code documentation files.
 
 Repository index
 =================
