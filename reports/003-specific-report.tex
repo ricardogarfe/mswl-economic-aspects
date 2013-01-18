@@ -5,6 +5,16 @@
 \usepackage{tabulary}
 \usepackage{float}
 \usepackage{eurosym}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem,varwidth}
+\usepackage[svgnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{lmodern}
+
+\parindent0em
 
 \title{\textbf{Economic Aspects\\}}
 \subtitle{Specific Report}
@@ -22,7 +32,7 @@ Specific report about a certain business model or strategy based on FLOSS, showi
 
 As a result of this activity, the student should produce:
 \begin{itemize}
-    \item A ‘traditional’ written report.
+    \item A 'traditional' written report.
     \item A video or audio presentation (10 min. maximum).
     \item A set of slides supporting the presentation.
 \end{itemize}
@@ -187,6 +197,107 @@ This section of initiation can find all kinds of information on the Spring proje
 \end{itemize}
 
 \subsection{SWOT Matrix}
+
+\par Having located the advantages and drawbacks, this information can be translated through a SWOT Matrix\footnote{http://www.swotmatrix.com/} - \emph{(Streghts, Weaknesses, Opportunities, Threats)} - to be more easily readable and interpretable.
+
+\begin{tikzpicture}[
+    pentagon/.style={%
+      shape=regular polygon,
+      regular polygon sides=5,
+      minimum size=7.3cm,
+      inner sep=-1mm,
+      draw,
+      fill=DarkSeaGreen!75!yellow
+    },
+    font=\scriptsize\sffamily,
+    thick
+]
+\filldraw[thin,gray,fill=gray!25] (-8,-8) rectangle (8,8);
+\filldraw[thin,gray,fill=white] (-7.15,-7.15) rectangle (7.15,7.15);
+\draw[thin,gray] (7.15,7.15)--(8,8) (-7.15,7.15)--(-8,8) (-7.15,-7.15)--(-8,-8) (7.15,-7.15)--(8,-8);
+
+% Streghts
+\draw[thin,gray] (-0.025,0.025)--(-7.05,0.025)--(-0.025,7.05)--cycle;
+\node[pentagon,rotate=45] at (-3.75,3.75) {
+  \begin{varwidth}{\linewidth}
+    \begin{itemize}[leftmargin=*,noitemsep]
+      \item Cost advantage
+      \item Effective communication
+      \item High R\&D
+      \item Innovation
+      \item Online growth
+      \item Pricing
+      \item Be part of a community
+      \item Became expert
+      \item Handle tools for other purposes
+      \item Easy Learning
+      \item FLOSS Software
+      \item Open Innovation
+    \end{itemize}
+  \end{varwidth}
+};
+\draw (-2,2) node[rotate=45] {\large\textbf{Streghts}};
+
+% Weaknesses
+\draw[thin,gray] (0.025,0.025)--(7.05,0.025)--(0.025,7.05)--cycle;
+\node[pentagon,rotate=-45] at (3.75,3.75) {
+  \begin{varwidth}{\linewidth}
+    \begin{itemize}[leftmargin=*,noitemsep]
+      \item Documentation unclear and tered
+      \item Lack of examples.
+      \item Unifying distributed channels.
+      \item Service oriented.
+      \item Focus on a single technology.
+    \end{itemize}
+  \end{varwidth}
+};
+\draw (2,2) node[rotate=-45] {\large\textbf{Weaknesses}};
+
+% Opportunities
+\draw[thin,gray] (-0.025,-0.025)--(-7.05,-0.025)--(-0.025,-7.05)--cycle;
+\node[pentagon,rotate=135] at (-3.75,-3.75) {
+  \begin{varwidth}{\linewidth}
+    \begin{itemize}[leftmargin=*,noitemsep]
+      \item Asset leverage.
+      \item Innovation.
+      \item Online.
+      \item Product and services expansion.
+      \item Access cutting-edge technology.
+      \item New programming language.
+      \item Learn to work in community.
+      \item R\&D workflow.
+      \item Choosing the type of client.
+      \item Avoid the means of production.
+    \end{itemize}
+  \end{varwidth}
+};
+\draw (-2,-2) node[rotate=135] {\large\textbf{Opportunities}};
+
+% Threats
+\draw[thin,gray] (0.025,-0.025)--(7.05,-0.025)--(0.025,-7.05)--cycle;
+\node[pentagon,rotate=-135] at (3.75,-3.75) {
+  \begin{varwidth}{\linewidth}
+    \begin{itemize}[leftmargin=*,noitemsep]
+      \item Competition.
+      \item External changes.
+      \item Community, government, politics.
+      \item Product substitution
+      \item The technology lose their status.
+      \item Difficult access to Community.
+    \end{itemize}
+  \end{varwidth}
+};
+\draw (2,-2) node[rotate=-135] {\large\textbf{Threats}};
+
+\draw(0,-7.55) node {\Large EXTERNAL};
+\draw(0,7.55) node {\Large INTERNAL};
+\draw(-7.55,0) node[rotate=90] {\Large POSITIVE};
+\draw(7.55,0) node[rotate=270] {\Large NEGATIVE};
+\draw(-0.6,0.6) node {\Huge\textbf{S}}; 
+\draw(0.6,0.6) node {\Huge\textbf{W}};
+\draw(-0.6,-0.6) node {\Huge\textbf{O}};
+\draw(0.6,-0.6) node {\Huge\textbf{T}};
+\end{tikzpicture}
 
 \section{Useless without FLOSS}
 
