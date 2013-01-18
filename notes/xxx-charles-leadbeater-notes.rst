@@ -6,8 +6,8 @@ Users can be producers
 Necesidad y Creatividad
 ========================
 
-La creatividad viene de cualquier lado, por mucho que se incentive, viena a partir de la premisa de la necesidad, por eso hay que estar al lado de la gente que tiene una necesidad y elabora una solución al respecto. Esta persona desarrollará una solución apropiada para su problema o mejora.
-Por este caso FLOSS se nutre, en una gran mayoría, de necesidades de las personas que colaboran. Es mucho más difícil que un grupo de desarrolladores enviados por parte de una empresa, tenga la misma capacidad de creatividad que una única persona dedicada al desarrollo de una solución. Debido a que esa solución 'egoístamente' es importante para él.
+La creatividad viene de cualquier lado, por mucho que se incentive, viene a partir de la premisa de la necesidad, por eso hay que estar al lado de la gente que tiene una necesidad y elabora una solución al respecto. Esta persona desarrollará una solución apropiada para su problema o mejora.
+Por este caso, FLOSS se nutre (en una gran mayoría) de necesidades de las personas que colaboran. Es mucho más difícil que un grupo de desarrolladores enviados por parte de una empresa, tenga la misma capacidad de creatividad que una única persona dedicada al desarrollo de una solución, la solución a su problema. Debido a que esa solución, egoístamente es importante para él.
 
 =========================
 Cathedral and the Bazaar
@@ -19,7 +19,7 @@ Podemos extraer el paralelismo con el texto de Eric Raymon 'Cathedral and the Ba
 Vuelco a los sistemas de producción
 ====================================
 
-Los sistemas de producción tradicionales se están viendo relegados a un segundo puesto debido a la facilidad de cubrir las necesidades que existen en el desarrollo FLOSS.
+Los means de producción tradicionales se están viendo relegados a un segundo puesto, debido a la facilidad de solucionar las necesidades que existen en el desarrollo FLOSS.
 
 Las barreras existentes a la hora de obtener resultados, son ínfimas en FLOSS. Debido a esto, los usuarios van a cubrir sus necesidades ayudando a las necesidades de los demás, aunque no existan, debido a que publican su conocimiento en un lugar común. Este lugar común sería utilizado por la comunidad para gestionar entre todos, mediante unas normas racionales, el conocimiento libre. 
 
