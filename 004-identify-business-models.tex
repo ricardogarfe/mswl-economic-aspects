@@ -1,4 +1,9 @@
 \documentclass[11pt]{scrartcl}
+\usepackage[parfill]{parskip}
+\usepackage{graphics}
+\usepackage{hyperref}
+
+\graphicspath{{images/}}
 
 \title{\textbf{Economic Aspects\\
                 Exercises}}
@@ -10,11 +15,31 @@
 
 \maketitle
 
-\section{Title}
+\vfill
+
+\begin{flushright}
+    \copyright  2013 Ricardo Garc\'ia Fern\'andez - ricardogarfe [at] gmail [dot] com.
+
+    This work is licensed under a Creative Commons Attribution- ShareAlike 3.0 License.
+    To view a copy of this license visit:
+ 
+    \url{http://creativecommons.org/licenses/by-sa/3.0/legalcode}.
+\end{flushright}
+
+\begin{figure}[h]
+    \begin{flushright}	
+        \includegraphics{by-sa}
+        \label{fig:by-sa}
+    \end{flushright}
+\end{figure}
+
+\newpage
+
+\section{Identify Business models}
 
 \section{Description}
 
-Identify the main (and complementary) business models adopted by five of the following companies:
+\par Identify the main (and complementary) business models adopted by five of the following companies:
 
 \begin{itemize}
   \item Liferay
@@ -27,18 +52,93 @@ Identify the main (and complementary) business models adopted by five of the fol
   \item Funambol
 \end{itemize}
 
-In every case, document your answers as much as possible. In all the cases, there is relevant information in the Net that of course you should use.
+\par In every case, document your answers as much as possible. In all the cases, there is relevant information in the Net that of course you should use.
+
+\section{Business models around FLOSS}
+
+\par First of all, we have to define which are FLOSS business models using \emph{FLOSSMetrics OpenTTT guides Analysis}\cite{floss-bm}
+
+\begin{itemize}
+	\item \emph{Open core} - Based on dual licensing, but this is not the business foundation. 
+
+	\item \emph{Product specialists} - Company offering or creating maintainance for a specific software product, usually in a concrete market.
+
+	\item \emph{Platform providers} - Selection, support, integration and services around a set of projects integrated in a single, tested and verified product.
+
+	\item \emph{Aggregate support providers} - Centralized support point for different libre software products.
+
+	\item \emph{Selection/consulting companies} - Assessment about selection and evaluation of software products and services.
+
+	\item \emph{Legal certification/consulting} - Legal assessment for companies about complex problems derived from multiplicity of libre software licenses and their compatibilities.
+
+	\item \emph{Training and documentation} - Focused on important aspects of libre software, but not directly related to development.
+
+	\item \emph{R\&D cost sharing} - Company interested in software development decides to release the code to benefit from contributions from large community of interested developers.
+
+	\item \emph{Indirect revenues} - Companies that decide to develop libre software or funding libre software projects to leverage their business on related products.
+
+\end{itemize}
+
+\par And of course, \emph{FLOSS is not a business model itself}.
 
 \subsection{Liferay}
 
+\emph{Liferay}: Liferay Portal is an enterprise web platform for building business solutions that deliver immediate results and long-term value\footnote{http://www.liferay.com/products/liferay-portal/overview}.
 
+\par They are the main developers in Liferay so we can determine its business model as \emph{Indirect revenues}.
+
+\par With the information obtained from their website, we can see the business models they use, based on \emph{Product specialists}:
+
+\begin{itemize}
+	\item Enterprise Support - Product specialists but not vendor locking (\emph{The Independent Market Leader}).
+	\item Consulting - Selection/consulting companies\footnote{http://www.liferay.com/services/consulting}. To improve Liferay use by customers.
+	\item Training - Training and documentation\footnote{http://www.liferay.com/services/training}.Education is focused in expertise in Liferay and its solutions.
+	\item Ready for the Enterprise - Platform providers for deploy Enterprise Edition in their servers.
+\end{itemize}
 
 \subsection{Eucalyptus}
 
+\emph{Eucalyptus}: Eucalyptus is open source software for building AWS-compatible(Amazon Web Services) private and hybrid clouds.
+
+\par Its model is focused in \emph{Aggregate support providers} related to cloud computing and Amazon Web Services\footnote{http://www.eucalyptus.com/eucalyptus-cloud}.
+
+\begin{itemize}
+	\item The Eucalyptus Cloud - Product specialists. Its related to their solution for aggregate support providers with AWS.
+	\item Ecosystem Tools - Aggregate support providers. Ensure compatibility of its solution with AWS.
+	\item Education Services - Training and documentation\footnote{http://www.eucalyptus.com/services/education}. Education is focused in expertise in cloud computing. 
+	\item Consulting Services - Selection/consulting companies\footnote{http://www.eucalyptus.com/services/consulting}. Provide support with all aspects of their cloud computing business model.
+	\item Support Services - Product specialists in their expertise area\footnote{http://www.eucalyptus.com/services/support}.
+	\item Experience Eucalyptus - Indirect revenues for using FLOSS sources to create a community around the product publishing Community Cloud\footnote{http://www.eucalyptus.com/eucalyptus-cloud/community-cloud}.
+\end{itemize}
+
 \subsection{BlackDuck}
+
+\par \emph{BlackDuck}: Open Source Management Software \& Consulting.
+
+\par Blackduck is mainly focused on its role as a FLOSS consulting\footnote{Olliance Consulting, a division of Black Duck, is the leading open source strategy consulting firm.} Analyzing and guiding FLOSS projects as an expertise in FLOSS. Product specialists in FLOSS development.
+
+\begin{itemize}
+	\item Audit Services Open Source License \& Code Analysis - Legal certification/consulting \& Selection/consulting companies\footnote{http://www.blackducksoftware.com/services/audit}
+	\item Fast Start Services Accelerate Open Source Development - 
+	\item Product Implementation Services Seamless Solutions Deployment - Product specialists\footnote{http://www.blackducksoftware.com/services/implementation}.
+	\item Training \& Certification Education Helping You Maximize The Value of Open Source - Training and documentation\footnote{http://www.blackducksoftware.com/services/training}.
+\end{itemize}
 
 \subsection{Acquia}
 
+
+
 \subsection{Funambol}
+
+
+
+\begin{thebibliography}{9}
+
+    \bibitem{floss-bm}
+    FLOSSMETRICS/OpenTTT guides,\\
+    FLOSS-based business models,\\
+    http://guide.conecta.it/index.php/6.\_FLOSS-based\_business\_models
+    
+\end{thebibliography}
 
 \end{document}
