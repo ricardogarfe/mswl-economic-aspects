@@ -39,7 +39,7 @@ In reports directory are final reports of the subject:
 Blog
 -----
 
-Blog entries related to FLOSS Economic Aspects: http://mastersfwlurjc.blogspot.com.es/search/label/mswl-economic-aspects.
+Blog entries related to FLOSS Economic Aspects in [mastersfwlurjc](http://mastersfwlurjc.blogspot.com.es/search/label/mswl-economic-aspects).
 
 License
 ========
