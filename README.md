@@ -18,9 +18,10 @@ Main directory
 ---------------
 
 * 002-exercises.tex: Notes and exercise related to startup company for ``Business model report``.
-* 003-business-model-exercises.tex: ``Research, using information in the web, the business models of Red Hat, 
+* 003-business-model-exercises.tex: ``Research, using information in the web, the business models of Red Hat, Canonical and Eucalyptus``. 
 Canonical, and Eucalyptus``
-* 004-identify-business-models.tex: ``Identify the main (and complementary) business models adopted``
+* 004-identify-business-models.tex: ``Identify the main (and complementary) business models adopted``.
+* 005-charles-leadbeater-innovation.tex: ``Charles Leadbeater on innovation`` Needs & Creativity.
 * notes/: notes for [CollaborativeNoteBook](https://github.com/mswlEco2012/CollaborativeNotebook) project.
 * README.md: README repository documentation and index file.
 
@@ -34,6 +35,11 @@ In reports directory are final reports of the subject:
 * 003-specific-report.tex: ``Specific Report`` - Me, my own company.
 * images/: images directory for LaTeX report files.
 * scripts: ``software-development-chart.py`` file to generate Specific Report charts using python an pycha.
+
+Blog
+-----
+
+Blog entries related to FLOSS Economic Aspects: http://mastersfwlurjc.blogspot.com.es/search/label/mswl-economic-aspects.
 
 License
 ========
